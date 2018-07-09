@@ -76,7 +76,7 @@ def player_choice(player):
 # Function asking for a replay of game
 def replay():
 	rep = input('Do you want to play again? Yes or No: ')
-	return rep.lower() == 'yes':
+	return rep.lower() == 'yes'
 		
 # Using while loops and the functions above to make the game come together
 playing = True
