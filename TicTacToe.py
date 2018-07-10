@@ -1,5 +1,16 @@
 #INFO 
-print('THIS GAME FOLLOWS THE NUMPAD NUMBERING APPROACH FOR NUMBERING OF THE SQUARES OF THE TIC TAC TOE BOARD')
+print('Square Numbering Explanation')
+
+def info(): 
+
+	print(f'  1 | 2 | 3   ')
+	print('----------------')
+	print(f'  4 | 5 | 6  ')
+	print('----------------')
+	print(f'  7 | 8 | 9  ')
+
+
+info()
 
 # Function for displaying board
 def display_board(board):
