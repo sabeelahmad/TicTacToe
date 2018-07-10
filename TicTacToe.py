@@ -26,9 +26,9 @@ def display_board(board):
 # Function to take input from player
 def player_input():
 	choice  = ''
-	while choice != 'X' and choice != 'O':
+	while choice.upper() != 'X' and choice.upper() != 'O':
 		choice = input("Please Enter The Choice Of Your Marker : 'X' or 'O' ---> ")
-	return choice
+	return choice.upper()
 
 # Function to place 'X' or 'O' on board at the position desired by the player
 def place_X_O(board, choice, position):
